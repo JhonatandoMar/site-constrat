@@ -1,5 +1,5 @@
 @charset "UTF8";
 
-div {
-    font-family: sans-serif;
+body {
+    font: normal 0.9em sans-serif;
 }
