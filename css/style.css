@@ -3,3 +3,21 @@
 body {
     font: normal 0.9em sans-serif;
 }
+
+/* TESTE FLEXBOX */
+
+.main_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_header_nav {
+    display: flex;
+    align-items: center;
+}
+
+.main_header_nav_links {
+    left: 100%;
+    right: auto;
+}
