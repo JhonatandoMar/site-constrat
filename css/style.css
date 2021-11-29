@@ -7,20 +7,24 @@ body {
 
 /* TESTE FLEXBOX */
 
+#menu {
+    background-color: rgb(255, 116, 116);
+}
+
+#menu h1 {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
 #logo_menu {
-    position: absolute;
-    left: 1000px;
-    top: 70px;
+    position: relative;
 }
 
 .menu_header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-#menu {
-    background-color: rgb(255, 116, 116);
 }
 
 .menu_header_nav {
