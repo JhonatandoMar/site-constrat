@@ -2,7 +2,7 @@
 
 body {
     font: normal 0.9em sans-serif;
-    margin: 0px
+    margin: 0px;
 }
 
 /* TESTE FLEXBOX */
@@ -11,14 +11,9 @@ body {
     background-color: rgb(255, 116, 116);
 }
 
-#menu h1 {
-    position: relative;
-    top: 100px;
-    text-align: center;
-}
-
 #logo_menu {
     position: relative;
+    left: 55px;
 }
 
 .menu_header {
@@ -30,9 +25,10 @@ body {
 .menu_header_nav {
     display: flex;
     align-items: center;
+    padding-right: 64px;
 }
 
-.menu_header_nav_links {
-    left: 100%;
-    right: auto;
+.menu_header_nav_links a {
+    padding: 5px;
+    text-decoration: none;
 }
