@@ -16,6 +16,13 @@ p {
 header {
     border-bottom: 1px solid black;
 }
+
+.search-box {
+    transform: translate(-50%, -50%);
+    background-color: #3f336b;
+    border-radius: 40px;
+}
+
 /*
 .main_corpo {
     background-image: url(img/imagem_fundo_header.png);
@@ -33,6 +40,8 @@ nav > a {
     padding: 5px;
     text-decoration: none;
 }
+
+/* CORPO */
 
 .main {
     display: flex;
@@ -55,8 +64,6 @@ nav > a {
     padding: 40px;
     margin: 0px;
 }
-
-/* CORPO */
 
 main {
     margin: 0px 50px 0px 50px;
