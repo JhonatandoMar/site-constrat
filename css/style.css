@@ -1,34 +1,46 @@
 @charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 body {
-    font: normal 0.9em sans-serif;
-    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px 50px 0px 50px;
 }
 
-/* TESTE FLEXBOX */
-
-#cabecalho {
-    background-color: rgb(255, 116, 116);
+p {
+    text-align: justify;
 }
 
-#logo_menu {
-    position: relative;
-    left: 55px;
+header {
+    border-bottom: 1px solid black;
 }
 
-.menu_header {
+.main_corpo {
+    background-image: url(img/imagem_fundo_header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*
+.main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgb(127, 172, 255);
+    padding: 8px;
 }
 
-.menu_header_nav {
-    display: flex;
-    align-items: center;
-    padding-right: 64px;
+header h1 {
+    /*padding: 5px;
+    margin: 30px 60px 30px 60px;
+    text-align: justify;
 }
 
-.menu_header_nav_links a {
+span h1 {
+    margin: 0px;
+}
+
+nav > a {
     padding: 5px;
     text-decoration: none;
 }
+*/
