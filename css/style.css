@@ -17,11 +17,6 @@ header {
     border-bottom: 1px solid black;
 }
 
-.search-box {
-    transform: translate(-50%, -50%);
-    background-color: #3f336b;
-    border-radius: 40px;
-}
 
 /*
 .main_corpo {
